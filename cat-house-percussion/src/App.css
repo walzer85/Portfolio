@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.TopNav {
+  color:  #eeffe7;
+  height: 70px;
+}
+
+.TopNav-image {
+  height: 50px;
+  width: 50px
+}
+
+.Nav-items {
+  font-size: 20px;
+}
+
+.Home-header {
+  margin: 5%;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.Home-body {
+  margin: 5%;
+  font-size: 25px;
+  font-family: 'EB Garamond', serif;
+}
