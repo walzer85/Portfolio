@@ -1,19 +1,26 @@
 .App {
   text-align: center;
+  align-content: center;
+  background-color:  #a5cfe7;
+  padding: 10px;
 }
 
 .TopNav {
-  color:  #eeffe7;
-  height: 70px;
+  color:  black;
+  height: 90px;
+  border-bottom: 5px solid;
 }
 
 .TopNav-image {
-  height: 50px;
-  width: 50px
+  margin: 5px;
+  height: 70px;
+  width: 70px;
+  float: left;
 }
 
 .Nav-items {
-  font-size: 20px;
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 .Home-header {
@@ -25,4 +32,17 @@
   margin: 5%;
   font-size: 25px;
   font-family: 'EB Garamond', serif;
+}
+
+.Cajones-pics {
+  width: 400px;
+  height: auto;
+  justify-content: center;
+  border: 4px solid;
+}
+
+.images {
+  width: 400px !important;
+  height: auto !important;
+  align-content: center;
 }
