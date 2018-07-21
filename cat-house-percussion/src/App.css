@@ -2,7 +2,7 @@
   text-align: center;
   align-content: center;
   background-color:  #a5cfe7;
-  padding: 10px;
+  padding: 2px;
 }
 
 .TopNav {
@@ -19,7 +19,7 @@
 }
 
 .Nav-items {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 10px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .Footer {
-  height: 90px;
+  height: 70px;
   width: 100%;
   font-family: 'PT Sans Caption', sans-serif;
   background-color: #54a8ad;

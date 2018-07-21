@@ -13,8 +13,6 @@ class Footer extends Component {
           <Col xs>
             <h4><a href='https://www.linkedin.com/in/eric-walz-52538721/'>Eric's LinkedIn</a>.</h4>
           </Col>
-        </Row>
-        <Row>
           <Col xs>
             <h4><a href='mailto:walzer85@gmail.com?' target='_top'>Contact Eric</a></h4>
           </Col>
