@@ -15,6 +15,11 @@ class Footer extends Component {
             <h4>See his resume at ADD LINK HERE.</h4>
           </Col>
         </Row>
+        <Row>
+          <Col xs>
+            <h4><a href='mailto:walzer85@gmail.com?' target='_top'>Contact Eric</a></h4>
+          </Col>
+        </Row>
       </div>
     )
   }
