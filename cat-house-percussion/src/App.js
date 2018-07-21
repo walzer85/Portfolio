@@ -15,9 +15,13 @@ class App extends Component {
     return (
       <BrowserRouter>
       <div className="App">
-        <Header />
-        <Home />
-        <Media />
+      <Header />
+        <Switch>
+          <Route path='/' component={Home} />
+          <Route path='/media' component={Media} />
+        </Switch>          
+        {/* <Home />
+        <Media /> */}
       </div>
       </BrowserRouter>
     );
