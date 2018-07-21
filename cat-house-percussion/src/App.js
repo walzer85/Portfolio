@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
+import About from './components/About';
 import Home from './components/Home';
 import Media from './components/Media';
 import Footer from './components/Footer';
@@ -19,6 +20,7 @@ class App extends Component {
       <Header />
         <Switch>
           <Route path='/' component={Home} />
+          <Route path='/about' component={About} />
           <Route path='/media' component={Media} />
         </Switch>          
         {/* <Home />
