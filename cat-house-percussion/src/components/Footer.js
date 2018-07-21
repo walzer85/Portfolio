@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { footer } from 'react-bootstrap';
 import { Row, Col } from 'react-flexbox-grid';
 import '../App.css'
 
@@ -12,7 +11,7 @@ class Footer extends Component {
             <h4>Created by Eric Walz for his portfolio, 2018.</h4>
           </Col>
           <Col xs>
-            <h4>See his resume at ADD LINK HERE.</h4>
+            <h4><a href='https://www.linkedin.com/in/eric-walz-52538721/'>Eric's LinkedIn</a>.</h4>
           </Col>
         </Row>
         <Row>
