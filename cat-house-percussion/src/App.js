@@ -19,9 +19,9 @@ class App extends Component {
       <div className="App">
       <Header />
         <Switch>
-          <Route path='/' component={Home} />
-          <Route path='/about' component={About} />
-          <Route path='/media' component={Media} />
+          <Route path='/' exact component={Home} />
+          <Route path='/about' exact component={About} />
+          <Route path='/media' exact component={Media} />
         </Switch>          
         {/* <Home />
         <Media /> */}
