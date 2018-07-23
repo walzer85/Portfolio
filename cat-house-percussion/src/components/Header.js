@@ -20,7 +20,7 @@ class Header extends Component {
               <Link to={'/about'}>About</Link>
             </NavItem>
             <NavItem eventkey={2} href='#'>
-              <Link to={'/instruments'}>Instruments</Link>
+              <Link to={'/cajon'}>Cajon</Link>
             </NavItem>
             <NavItem eventkey={3} href='#'>
             <Link to={'/media/'}>Media</Link>
