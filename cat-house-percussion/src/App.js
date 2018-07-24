@@ -5,6 +5,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Cajon from './components/Cajon';
 import Media from './components/Media';
+import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import {
   BrowserRouter,
@@ -24,6 +25,7 @@ class App extends Component {
             <Route path='/about' exact component={About} />
             <Route path='/cajon' exact component={Cajon} />
             <Route path='/media' exact component={Media} />
+            <Route path='/testimonials' exact component={Testimonials} />
           </Switch>          
           <Footer />
         </div>
